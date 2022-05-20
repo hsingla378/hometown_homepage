@@ -1,0 +1,115 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* header{
+    background-image: url("img.jpg");
+    background-size: cover;
+} */
+
+#headerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://navodaya.gov.in/nvs/export/sites/nvs/nvs-school/SIRSA/images/activites-images/IMG-20200425-WA0060.jpg");
+    background-size: cover;
+    height: 343px;
+}
+
+#headerHeading{
+    color: white;
+    background-color: #1D3557;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#headerParagraph{
+    font-size: 18.72px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #457B9D;
+    border-radius: 10px;
+    padding: 5px 15px;
+    width: 412px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 75px;
+    background-color: #F1FAEE;
+}
+
+main > div{
+    margin: 0px 25px;
+}
+
+.columnImage{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.columnHeading{
+    font-size: 16;
+    font-weight: bold;
+    color: #1D3557;
+}
+
+.columnParagraph{
+    font-size: 16;
+    color: #1D3557;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+#footerImage{
+    border-radius: 10px;
+}
+
+#footerCard{
+    width: 400px;
+    background-color: #A8DADC;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 6px solid #1D3557;
+}
+
+#footerText{
+    padding: 0px 15px;
+}
+
+#footerHeading{
+    font-size: 24px;
+    color: #1D3557;
+    font-weight: bold;
+}
+
+#footerParagraph{
+    font-size: 16px;
+    color: 1D3557;
+}
+
+#footerName{
+   font-size: 16px;
+   font-weight: bold;
+   color: #1D3557; 
+}
